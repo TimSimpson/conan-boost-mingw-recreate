@@ -1,0 +1,12 @@
+[requires]
+mingw_installer/0.1@lasote/testing
+cmake_installer/0.1@lasote/testing
+
+[generators]
+virtualenv
+
+[options]
+mingw_installer:exception=seh
+mingw_installer:version=4.9
+cmake_installer:version=3.4.3
+
